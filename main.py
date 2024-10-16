@@ -17,4 +17,4 @@ def add_security_headers(response):
 def catch_all(path):
     return render_template("base.html")
 
-app.run(debug=True, port=3125, host="0.0.0.0")
+app.run(debug=True, port=263125, host="0.0.0.0")
